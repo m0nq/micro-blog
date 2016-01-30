@@ -3,66 +3,74 @@ body {
   background-image: url("../assets/pZghu8Q.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: lighter;
   color: white;
 }
 
 h1 {
-  text-align: center;
+  margin: 50px 0;
+  display: block;
   font-size: 4em;
 }
 
 #form-div {
+  margin: 0 10%;
+  width: 80%;
   border-top: 1px;
   border-bottom: 1px;
   border-color: white;
   border-style: solid;
 }
 
-input[type="text"] {
+#text-box {
+  display: block;
   color: black;
-  font-size: 1.5em;
-  margin: 20px 130px;
+  font-size: 1.7em;
+  margin: 3% auto;
   width: 70%;
   height: 30%;
+  font-weight: lighter;
 }
 
 #button {
+  display: block;
   background: rgba(104, 104, 104, .95);
   border-style: solid;
   border: 0;
   border-radius: 4px;
-  margin: 0 385px 20px;
+  margin: 3% auto;
   font-size: 1.5em;
 }
 
 #button:hover {
+  display: block;
   background: white;
   color: black;
   border-style: solid;
-  border: 1px;
+  border: 0;
   border-radius: 4px;
-  margin: 0 385px 20px;
+  margin: 3% auto;
   font-size: 1.5em;
 }
 
 #button:active {
+  display: block;
   background: rgba(104, 104, 104, .95);
   border-style: solid;
-  border: 1px;
+  border: 0;
   border-radius: 4px;
-  margin: 0 385px 20px;
+  margin: 3% auto;
   font-size: 1.5em;
 }
 
 li {
-  background: rgba(104, 104, 104, .95);
-  margin: 20px 300px 0 300px;
-  width: 60%;
+  background: rgba(104, 104, 104, 1);
+  margin: 1.8% auto;
+  width: 55%;
   display: block;
-  list-style-type: none;
-  border: 0;
   border-radius: 3px;
   font-size: 1.5em;
   padding: 10px;
+  text-align: left;
 }
