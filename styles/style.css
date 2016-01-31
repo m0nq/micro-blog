@@ -1,80 +1,78 @@
 body {
-  width: 100%;
   background-color: black;
   background-image: url("../assets/pZghu8Q.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: lighter;
   color: white;
 }
 
-#h-one-div {
-  width: 30%;
-  margin: 50px 518px;
-  position: relative;
-}
-
 h1 {
-  text-align: center;
+  margin: 50px;
+  display: block;
   font-size: 4em;
 }
 
 #form-div {
-  width: 60%;
-  margin: 0 116px 0 300px;
-  position: relative;
-  z-index: 1;
+  padding: 2%;
   border-top: 1px;
   border-bottom: 1px;
   border-color: white;
   border-style: solid;
+  font-size: .9em;
 }
 
-input[type="text"] {
+#text-box {
+  display: block;
   color: black;
-  font-size: 1.5em;
-  margin: 20px 130px;
-  /*position: relative;*/
-  width: 70%;
-  height: 30%;
+  font-size: 1.7em;
+  margin: auto;
+  width: 80%;
+  font-weight: lighter;
 }
 
 #button {
+  display: block;
   background: rgba(104, 104, 104, .95);
   border-style: solid;
   border: 0;
   border-radius: 4px;
-  margin: 0 385px 20px;
+  margin: auto;
+  margin-top: 2%;
   font-size: 1.5em;
 }
 
 #button:hover {
+  display: block;
   background: white;
   color: black;
   border-style: solid;
-  border: 1px;
+  border: 0;
   border-radius: 4px;
-  margin: 0 385px 20px;
+  margin: auto;
+  margin-top: 2%;
   font-size: 1.5em;
 }
 
 #button:active {
+  display: block;
   background: rgba(104, 104, 104, .95);
   border-style: solid;
-  border: 1px;
+  border: 0;
   border-radius: 4px;
-  margin: 0 385px 20px;
+  margin: auto;
+  margin-top: 2%;
   font-size: 1.5em;
 }
 
 li {
-  background: rgba(104, 104, 104, .95);
-  margin: 20px 300px 0 300px;
-  width: 60%;
+  background: rgba(104, 104, 104, 1);
+  margin: 2% auto;
+  width: 77%;
   display: block;
-  list-style-type: none;
-  border: 0;
   border-radius: 3px;
   font-size: 1.5em;
-  padding: 10px;
+  padding: .5%;
+  text-align: left;
 }
