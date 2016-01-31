@@ -74,41 +74,36 @@ li {
   border-radius: 3px;
   font-size: 1.5em;
   padding: .5%;
+  padding-right: 0;
   text-align: left;
 }
 
 .delete-button {
-  background: rgba(144, 144, 144, .95);
+  background: rgba(104, 104, 104, .95);
   color: black;
   border-style: solid;
   border: 0;
-  border-radius: 4px;
-  text-align: right;
-  margin: auto;
-  margin-top: 2%;
-  font-size: 1.5em;
+  border-radius: 2px;
+  margin: 0 0 0 23.3%;
+  font-size: .9em;
 }
 
 .delete-button:hover {
-  background: rgba(255, 255, 255, .95);
-  color: black;
-  border-style: solid;
-  border: 0;
-  border-radius: 4px;
-  text-align: right;
-  margin: auto;
-  margin-top: 2%;
-  font-size: 1.5em;
-}
-
-.delete-button:active {
   background: rgba(144, 144, 144, .95);
   color: black;
   border-style: solid;
   border: 0;
-  border-radius: 4px;
-  text-align: right;
-  margin: auto;
-  margin-top: 2%;
-  font-size: 1.5em;
+  border-radius: 2px;
+  margin: 0 0 0 23.3%;
+  font-size: .9em;
+}
+
+.delete-button:active {
+  background: rgba(104, 104, 104, .95);
+  color: black;
+  border-style: solid;
+  border: 0;
+  border-radius: 2px;
+  margin: 0 0 0 23.3%;
+  font-size: .9em;
 }
