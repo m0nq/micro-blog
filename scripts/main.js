@@ -2,8 +2,12 @@ $(function main() {
 
   // delete button
   // create a button with an 'X' in it.
-  // append it to all/any li elements
+  var button = document.createElement('button');
   // when 'X' is clicked, remove itself.
+  button.setAttribute('class', 'delete-button');
+  button.setAttribute('value', "X");
+  // append it to all/any li elements
+  $('li').append(button);
 
   // get submit button
   $('#button').click(function (eventObject) {
