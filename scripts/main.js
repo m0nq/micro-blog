@@ -1,5 +1,10 @@
 $(function main() {
 
+  // delete button
+  // create a button with an 'X' in it.
+  // append it to all/any li elements
+  // when 'X' is clicked, remove itself.
+
   // get submit button
   $('#button').click(function (eventObject) {
     
@@ -10,17 +15,17 @@ $(function main() {
     // store theinput from the text field
     var input = $('#text-box').val();
 
-    check(input).fadeIn();
+    check(input);
   });
-
-  function check (input) {
-    if (input) {
-      
-      $('#text-box').val('');
-
-      $('#main-list').prepend('<li>' + input + '</li>');
-    }
-  }
 
   // localStorage
 });
+
+function check (input) {
+  if (input) {
+    
+    $('#text-box').val('');
+
+    $('#main-list').prepend('<li>' + input + '</li>');
+  }
+}
