@@ -21,7 +21,7 @@ function populate () {
   var len = localStorage.length;
   while (i < len) {
     if (localStorage[i]) {
-      var $li = $('<li>').html(localStorage[len]);
+      var $li = $('<li>').html(localStorage[i]);
       $('#main-list').prepend($li);
     }
     i++;
