@@ -74,7 +74,6 @@ li {
   border-radius: 3px;
   font-size: 1.5em;
   padding: .5%;
-  padding-right: 0;
   text-align: left;
 }
 
@@ -84,8 +83,8 @@ li {
   border-style: solid;
   border: 0;
   border-radius: 2px;
-  margin: 0 0 0 23.3%;
-  font-size: 1em;
+  /*margin: 0 0 0 23.3%;*/
+  font-size: .8em;
 }
 
 .delete-button:hover {
@@ -94,8 +93,8 @@ li {
   border-style: solid;
   border: 0;
   border-radius: 2px;
-  margin: 0 0 0 23.3%;
-  font-size: 1em;
+  /*margin: 0 0 0 23.3%;*/
+  font-size: .8em;
 }
 
 .delete-button:active {
@@ -104,6 +103,6 @@ li {
   border-style: solid;
   border: 0;
   border-radius: 2px;
-  margin: 0 0 0 23.3%;
-  font-size: 1em;
+  /*margin: 0 0 0 23.3%;*/
+  font-size: .8em;
 }
